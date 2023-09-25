@@ -54,6 +54,9 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
+# Misc
+/.airtableblocksrc.json
+
 # Optional stylelint cache
 .stylelintcache
 
