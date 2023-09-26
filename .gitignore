@@ -56,6 +56,7 @@ web_modules/
 
 # Misc
 /.airtableblocksrc.json
+.DS_Store
 
 # Optional stylelint cache
 .stylelintcache
