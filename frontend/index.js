@@ -10,7 +10,8 @@ function MerkelappGenerator() {
     const base = useBase();
     const table = base.getTableByNameIfExists("Installasjon");
     const qrFieldId = "fldqHRKfnOo4TGxxR"; // Assuming this is the correct field ID
-    const records = useRecords(table);
+    const view = table.getView("NameOfCustomer") //TODO Update with name of view for that customer.
+    const records = useRecords(view);
 
     function canvasGenerator() {
         const canvas = document.createElement('canvas');
